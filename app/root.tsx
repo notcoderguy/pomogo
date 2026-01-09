@@ -36,16 +36,16 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <meta name="title" content="Maintenance - NotCoderGuy" />
-        <meta name="description" content="Welcome to NotCoderGuy's Maintenance Page!" />
+        <meta name="title" content="Pomogo - NotCoderGuy" />
+        <meta name="description" content="The Pomodoro Timer for the Modern Web" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Maintenance - NotCoderGuy" />
-        <meta property="og:description" content="Welcome to NotCoderGuy's Maintenance Page!" />
+        <meta property="og:title" content="Pomogo - NotCoderGuy" />
+        <meta property="og:description" content="The Pomodoro Timer for the Modern Web" />
         <meta property="og:image" content="banner.png" />
 
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:title" content="Maintenance - NotCoderGuy" />
-        <meta property="twitter:description" content="Welcome to NotCoderGuy's Maintenance Page!" />
+        <meta property="twitter:title" content="Pomogo - NotCoderGuy" />
+        <meta property="twitter:description" content="The Pomodoro Timer for the Modern Web" />
         <meta property="twitter:image" content="banner.png" />
 
         <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png" />
