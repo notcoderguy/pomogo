@@ -40,8 +40,8 @@ export function GenericLogo({
   // For light theme/background, use dark (black) logo for contrast
   const isDark = resolvedTheme === "dark";
   const logoSrc = isDark
-    ? "/logos/ncg-white-logo.svg"
-    : "/logos/ncg-black-logo.svg";
+    ? "/logos/pomogo-white-logo.svg"
+    : "/logos/pomogo-black-logo.svg";
 
   const logoAlt = `NotCoderGuy ${isDark ? "white" : "black"} logo`;
 
@@ -58,7 +58,7 @@ export function GenericLogo({
           <span
             className={`text-foreground font-bold ${sizes.text} ${textClassName}`}
           >
-            NotCoderGuy
+            pomogo
           </span>
         )}
       </div>
@@ -77,7 +77,7 @@ export function GenericLogo({
         <span
           className={`text-foreground font-bold ${sizes.text} ${textClassName}`}
         >
-          NotCoderGuy
+          pomogo
         </span>
       )}
     </div>
@@ -110,8 +110,8 @@ export function GenericLogoWithFallback({
   // resolvedTheme handles system theme detection automatically
   const isDark = resolvedTheme === "dark";
   const logoSrc = isDark
-    ? "/logos/ncg-white-logo.svg"
-    : "/logos/ncg-black-logo.svg";
+    ? "/logos/pomogo-white-logo.svg"
+    : "/logos/pomogo-black-logo.svg";
 
   const sizes = sizeMap[size];
 
@@ -126,7 +126,7 @@ export function GenericLogoWithFallback({
           <span
             className={`text-foreground font-bold ${sizes.text} ${textClassName}`}
           >
-            NotCoderGuy
+            pomogo
           </span>
         )}
       </div>
@@ -161,14 +161,14 @@ export function GenericLogoWithFallback({
       <div
         className={`${sizes.logo} bg-primary text-primary-foreground hidden items-center justify-center rounded-lg font-bold ${logoClassName}`}
       >
-        <span className="text-sm">NCG</span>
+        <span className="text-sm">pomogo</span>
       </div>
 
       {showText && (
         <span
           className={`text-foreground font-bold ${sizes.text} ${textClassName}`}
         >
-          NotCoderGuy
+          pomogo
         </span>
       )}
     </div>
