@@ -1,0 +1,6 @@
+# :schema node_modules/wrangler/config-schema.json
+name = "maintenance-page"
+compatibility_date = "2025-09-25"
+
+[build]
+command = "bun run build"

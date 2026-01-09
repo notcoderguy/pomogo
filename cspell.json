@@ -1,0 +1,28 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "words": [
+    "Embla",
+    "nums",
+    "cmdk",
+    "vaul",
+    "bunx",
+    "isbot",
+    "msapplication",
+    "linecap"
+  ],
+  "ignoreWords": [],
+  "flagWords": [],
+  "ignorePaths": [
+    "node_modules/**",
+    "build/**",
+    "dist/**",
+    "coverage/**",
+    "*.lock",
+    ".git/**",
+    ".vscode/**",
+    ".github/**",
+    "bun.lock",
+    ".wrangler/**"
+  ]
+}
